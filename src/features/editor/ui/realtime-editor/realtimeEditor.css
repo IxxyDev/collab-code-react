@@ -1,0 +1,26 @@
+.realtimeEditor__container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.CodeMirror {
+    background-color: var(--dark-primary) !important;
+    width: 100%;
+    height: 100%;
+}
+
+.CodeMirror-gutters {
+    background-color: var(--dark-primary) !important;
+    color: #a5a5a5;
+}
+
+.editor-upper-wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatars-wrapper {
+    display: flex;
+    gap: 8px;
+}
